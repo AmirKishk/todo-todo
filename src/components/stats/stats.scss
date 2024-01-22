@@ -1,0 +1,14 @@
+.stats {
+  bottom: 0;
+  max-width: 400px;
+  padding: 20px;
+  margin-bottom: 3rem;
+  background: #282851;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  .notify {
+    text-align: center;
+    color: rgb(161, 160, 160);
+  }
+}

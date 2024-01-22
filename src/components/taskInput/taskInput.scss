@@ -1,0 +1,42 @@
+.inputField {
+  width: 100%;
+  padding: 5px 1rem;
+  background: #3e3e5a;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  input {
+    background: transparent;
+    padding: 10px;
+    color: rgb(161, 160, 160);
+    font-size: 1rem;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  input::placeholder {
+    color: rgb(161, 160, 160);
+  }
+
+  button {
+    background: #3d79b1;
+    color: #fff;
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    transform: rotate(90deg);
+  }
+}
